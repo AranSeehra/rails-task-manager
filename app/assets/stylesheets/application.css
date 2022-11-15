@@ -20,17 +20,38 @@
   font-family: fantasy;
  }
 
+ a {
+  text-align: center;
+  justify-content: center;
+ }
+
  h3 a:hover {
-  color: blue;
-  text-decoration: 1px solid blue;
+  color: rgb(180, 13, 57);
  }
 
  ul {
-  text-decoration: none;
-  border-bottom: 2px solid black;
-  width: 400px;
+  list-style: none;
  }
+
+.container {
+  border-bottom: 1px solid gray;
+  
+  text-align: center;
+  margin-top: 20px;
+}
+
+.link {
+  text-align: center;
+  justify-content: center;
+  font-family: fantasy;
+  margin-top: 20px;
+}
+
+.link a {
+  text-decoration: none;
+}
 
  h1 {
   font-family: fantasy;
+  margin-left: 30px;
  }
