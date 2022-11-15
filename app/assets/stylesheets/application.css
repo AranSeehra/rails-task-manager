@@ -31,13 +31,22 @@
 
  ul {
   list-style: none;
+  margin-top: 20px;
+ }
+
+ li {
+  margin-bottom: 5px;
+ }
+
+ ._form_task {
+  background-color: red;
  }
 
 .container {
   border-bottom: 1px solid gray;
-  
-  text-align: center;
+  width: 700px;
   margin-top: 20px;
+  margin: 0 auto;
 }
 
 .link {
@@ -51,7 +60,13 @@
   text-decoration: none;
 }
 
+body {
+  font-family: fantasy;
+}
+
  h1 {
   font-family: fantasy;
-  margin-left: 30px;
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
  }

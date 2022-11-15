@@ -1,2 +1,4 @@
 <%= render "form", task: @task %>
-<%= link_to "Go back", task_path %>
+<div class="link">
+<%= link_to raw('<i class="fa-solid fa-circle-left fa-xl"></i>'), task_path %>
+</div>
